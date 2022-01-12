@@ -8,7 +8,7 @@ This application is fully functional! But `App.js` is getting really crowded. It
 
 Create the new components in the following order (increasing level of difficulty):
 
-1. Header
+1. Header[π]
 1. Footer
 1. Guest List
 1. Dinner Supplies
