@@ -4,6 +4,9 @@ import './App.css';
 
 //importing Header
 import Header from '../Header/Header';
+
+//importing Footer
+import Footer from '../Footer/Footer';
 function App() {
   let [guestList, setGuestList] = useState([]);
   let [newGuestName, setNewGuestName] = useState('');
@@ -128,10 +131,7 @@ function App() {
       <div>
         Knives: {guestList.length * 2}
       </div>
-      <footer>
-        <h3>Have fun!</h3>
-        <p>Don't forget to mind your Ps and Qs!</p>
-      </footer>
+      <Footer h3 = "Have Fun!" p = "Don't forget your Ps and Qs!"/>
     </div>
   );
 }
