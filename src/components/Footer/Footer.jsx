@@ -2,10 +2,10 @@ function Footer(props){
     return(
         <footer>
             <h3>
-                {props.h3}
+                Have Fun!
             </h3>
             <p>
-                {props.p}
+                Don't forget your Ps and Qs!
             </p>
         </footer>
     );
