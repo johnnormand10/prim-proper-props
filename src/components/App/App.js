@@ -10,6 +10,10 @@ import Footer from '../Footer/Footer';
 
 //importing GuestList
 import GuestList from '../GuestList/GuestList';
+
+//importing DinnerSupplies
+import DinnerSupplies from '../DinnerSupplies/DinnerSupplies';
+
 function App() {
   let [guestList, setGuestList] = useState([]);
   let [newGuestName, setNewGuestName] = useState('');
@@ -108,16 +112,7 @@ function App() {
         <button type="submit">Add Guest</button>
       </form>
       <GuestList guestList = {guestList}/>
-      <h2>Dinner Supplies</h2>
-      <div>
-        Spoons: {guestList.length * 2}
-      </div>
-      <div>
-        Forks: {guestList.length * 2}
-      </div>
-      <div>
-        Knives: {guestList.length * 2}
-      </div>
+      <DinnerSupplies supplies = {guestList}/>
       <Footer h3 = "Have Fun!" p = "Don't forget your Ps and Qs!"/>
     </div>
   );
